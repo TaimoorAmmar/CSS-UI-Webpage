@@ -1,0 +1,339 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+
+}
+img {
+  max-width: 100%;
+}
+hr {
+  width: 100%;
+  border-top: 1px solid #ddd;
+
+}
+.container {
+  margin: 50px 5%;
+}
+
+header {
+  height: 92px;
+}
+.logo {
+  float: left;
+}
+a.active{
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.banner {
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 458px;
+  border-radius: 10px;
+
+}
+
+.text {
+  text-align: center;
+  margin: auto;
+  width: 650px;
+  padding: 11% 0;
+  max-width: 100%;
+}
+.text h1{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.text p {
+  margin: 15px 0px;
+}
+
+.navbar {
+  float: right;
+  margin: 27px 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.navbar a:hover{
+  padding: 5px 10px;
+  border: 1px solid black
+}
+.heading {
+  text-align: center;
+  padding: 60px;
+  
+}
+.heading p {
+  margin-top: 20px;
+
+}
+.anchor-btn {
+  padding: 10px;
+  background-color: #b6d427;
+  width: 12%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+.heading2 {
+  text-align: center;
+  margin: 30px;
+}
+
+.service-card {
+  width: 22%;
+  margin-left: 2.4%;
+  float: left;
+  margin-bottom: 2%;
+}
+
+.service-card h3 {
+  margin: 10px 0;
+}
+.service-card p {
+font-size: 12px;
+} 
+.clear{
+  clear:both;
+}
+.about-left h6{
+  margin-top: 50px;
+  
+}
+.sub-heading {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 32px;
+}
+.sub-heading2 {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 12px;
+  
+}
+.find-out {
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  margin: 50px 0;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+.about-left {
+  float: left;
+  width: 60%;
+  padding: 45px 100px;
+  padding-bottom: 0;
+
+}
+.about-right {
+  float: right;
+  width: 40%;
+
+}
+.about-right img {
+  display: inline-block;
+  padding: 40px 20px;
+}
+
+.questions {
+  background: url(./images/qurestions-banner.jpg);
+  height: 297px;
+  background-size: 105%;
+  margin: 20px 0px;
+}
+.text2 {
+  width: 378px;
+  margin: auto;
+  padding: 80.5px 0;
+  text-align: center;
+}
+
+.text2 h1{
+font-size: 30px;
+}
+
+.text2 p {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 16.7px;
+}
+
+.find-out2 {
+  padding: 14px;
+  width: 150px;
+
+  border-radius: 4px;
+  background-color: #ffd936;
+  border: none;
+  margin-top: 20px;
+}
+
+table {
+  width: 95%;
+  margin-left: 30px;
+  padding-right: 60px;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  
+  
+}
+th {
+  padding: 15px;
+  border-bottom: 1px solid;
+  background-color: #f2f2f2;
+  
+}
+tr:last-child td{
+  border-bottom:0;
+}
+footer {
+  text-align: center;
+  background-color: #303030;
+  padding: 15px;
+}
+footer p{
+  color: white;
+}
+.contact-us {
+  background-color: #f2f2f2;
+  clear: both;
+}
+.contact {
+  margin-top: 140px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.contact h2 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.subtext {
+  padding-bottom: 10px;
+}
+.link {
+  padding-bottom: 40px;
+  text-decoration: underline;
+}
+.link a{
+  color:#53b8e0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.form-left {
+  float: left;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.form-right {
+  float: right;
+  margin-top: 40px;
+  width: 50%;
+  background-color: #f2f2f2;
+  margin-bottom: 50px;
+  
+}
+.form-right img{
+  width: 100%;
+  padding: 10px;
+}
+.listHeading{
+  margin-top: 10px;
+}
+.form-right div{
+  padding: 10px;
+}
+.form-right ol{
+  padding: 15px;
+}
+.form-right li{
+  padding: 4px;
+}
+.heading3 {
+  margin-top: 20px;
+}
+
+form #name {
+  width: 81%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+
+}
+form #email {
+  width: 81%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+
+}
+form #dob {
+  width: 81%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+
+}
+select {
+  width: 81%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+form #organization {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+form #about-you {
+  margin-top: 5px;
+  width: 81%;
+  padding: 50px;
+}
+form #submit {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b6d427;
+  width: 20%;
+  border-radius: 2px;
+  border-style: hidden;
+}
+
+.heading3 p{
+  margin-top: 10px;
+}
+.contractors h2{
+  margin: 30px 0px 20px 30px;
+}
+.contractors p{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.interest-heading{
+  margin-top: 40px;
+}
